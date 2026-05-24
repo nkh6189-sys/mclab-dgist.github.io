@@ -2,33 +2,57 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  Associate Professor, Department of Robotics and Mechatronics Engineering,
+  <a href="https://www.dgist.ac.kr" target="_blank">DGIST</a>.
+  Director, <strong>Mobility Control Laboratory (MCLab)</strong>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false
+  address: >
+    <p><strong>Mobility Control Lab. (MCLab)</strong></p>
+    <p>Dept. of Robotics &amp; Mechatronics Eng.</p>
+    <p>DGIST, 333 Techno Jungang-daero,</p>
+    <p>Hyeonpung-eup, Dalseong-gun,</p>
+    <p>Daegu 42988, Republic of Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true                 # 메인 화면에 최신 News 표시
+selected_papers: true      # selected:{true} 인 bib 항목을 메인에 표시
+social: true               # 소셜 아이콘 표시
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**Mobility Control Laboratory (MCLab)** is a research group at DGIST led by
+Prof. Kanghyun Nam. We work at the intersection of **vehicle dynamics**,
+**chassis control**, **electric motor drives**, and **Physical-AI** —
+designing physically grounded, data-augmented control algorithms for the
+next generation of intelligent mobility platforms.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+### Research Focus
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Our current research spans four interconnected pillars:
+
+- **Chassis-by-Wire systems** — Steer-by-Wire (SbW), Electro-Mechanical Brake
+  (EMB), Active Roll Bar (ARB), and Continuous Damping Control (CDC)
+- **Electric motor drives** — high-performance control of PMSM and PMLSM with
+  disturbance observer (DOB) and sliding mode techniques
+- **Vehicle state and force estimation** — EKF/UKF-based observers,
+  hybrid tire-force estimation, and rack-force estimation for SbW
+- **Physical-AI** — combining physics-based models with Gaussian Process and
+  data-driven methods (e.g., GP-augmented EKF, GP-scheduled ST-SMC)
+
+### Industry & Partnerships
+
+MCLab actively collaborates with industry on safety-critical mobility systems.
+Current and recent partnerships include a **Joint Lab with HL Mando (2024–)**,
+collaborations with **Hyundai Motor Group**, and an **NRF 5-year basic
+research program** on Physical-AI integrated 6-DOF motion control for
+over-actuated platforms.
+
+### Join Us
+
+We are always looking for motivated graduate students and undergraduate
+researchers interested in vehicle control, motor drives, or AI-augmented
+estimation and control. Please reach out by email with your CV and a short
+note about your interests.
