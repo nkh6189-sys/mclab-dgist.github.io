@@ -79,9 +79,9 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # -----------------------------------------------------------------------------
 # 외부 프로필 링크 (사이드바 아이콘으로 노출됨)
 # -----------------------------------------------------------------------------
-github_username:        kanghyunnam      # TODO: 실제 ID로 수정/삭제
+github_username:        nkh6189-sys      # TODO: 실제 ID로 수정/삭제
 google_scholar_id:                       # TODO: 본인 Google Scholar ID 입력
-orcid_id:                                # TODO: 0000-0002-XXXX-XXXX
+orcid_id:             0009-0001-4872-9322   # TODO: 0000-0002-XXXX-XXXX
 linkedin_username:
 researchgate_profile:
 publons_id:
