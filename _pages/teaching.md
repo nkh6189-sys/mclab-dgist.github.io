@@ -2,14 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Courses taught at DGIST.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 5
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Graduate Courses
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+- **Motor System Control** *(Spring)* — SVPWM, FOC/Vector Control,
+  anti-windup, input shaping, peak/notch filtering, DOB, sliding-mode
+  control, with applications to PMSM drives.
+- **Vehicle Dynamics and Control** — Tire mechanics, ride/handling models,
+  state-space chassis control, observer design for vehicle states.
+- **Vehicle Control System Design** — Integrated chassis control,
+  chassis-by-wire actuators (SbW, EMB), HIL/CarMaker-based verification.
 
-{% include courses.liquid %}
+Lecture materials are prepared in LaTeX Beamer with the MCLab template.
